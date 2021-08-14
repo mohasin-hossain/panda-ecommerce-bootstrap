@@ -22,6 +22,14 @@
   border: none;
 }
 
+.header-buy-now {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
+}
+
 .subscribe-button {
   background-image: linear-gradient(to bottom, #f882b1 0%, #fa79ab 100%);
   color: white;

@@ -37,3 +37,4 @@ inputField.addEventListener("keyup", function (event) {
       "linear-gradient(to bottom, #f882b1 0%, #fa79ab 100%)";
   }
 });
+
