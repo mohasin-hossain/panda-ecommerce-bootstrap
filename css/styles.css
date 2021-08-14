@@ -22,6 +22,14 @@
   border: none;
 }
 
+.subscribe-button {
+  background-image: linear-gradient(to bottom, #f882b1 0%, #fa79ab 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
+}
+
 .cat1 {
   background-image: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
 }

@@ -20,3 +20,20 @@ for (const button of buyNow) {
       "linear-gradient(to bottom, #f882b1 0%, #fa79ab 100%)";
   });
 }
+
+// Adding validation for email
+const inputField = document.getElementById("input-field");
+inputField.addEventListener("keyup", function (event) {
+  const userValue = event.target.value;
+  const subscribeBtn = document.querySelector(".subscribe-button");
+
+  if (userValue.includes("@")) {
+    subscribeBtn.style.backgroundImage =
+      "linear-gradient(to bottom, #ff589b 0%, #ff136f 100%)";
+    subscribeBtn.removeAttribute("disabled");
+  } else {
+    subscribeBtn.setAttribute("disabled", true);
+    subscribeBtn.style.backgroundImage =
+      "linear-gradient(to bottom, #f882b1 0%, #fa79ab 100%)";
+  }
+});
